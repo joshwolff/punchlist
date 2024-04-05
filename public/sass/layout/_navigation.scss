@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  &__item {
+    color: $white;
+  }
+
+  &__link {
+    color: inherit;
+  }
+}

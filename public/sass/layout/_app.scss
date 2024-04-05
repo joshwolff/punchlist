@@ -1,0 +1,10 @@
+.app-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+
+  width: min(80rem, 70%);
+  padding: 8rem 0;
+}

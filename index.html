@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A simple punchlist.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/boxing-glove.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@400;600;700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    
+    <title>Punchlist</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-section">
+        <div class="logo"><img src="./assets/images/boxing-glove.svg" class="logo-image" alt=""></div>
+        <nav class="nav">
+          <ul class="nav__list" role="list">
+            <li class="nav__item"><a href="http://www.friendswithfourpaws.org/donate.html" class="nav__link">Donate</a></li>
+          </ul>
+          </nav>
+        </div>
+        </header>
+      
+      <main class="main">
+        <section class="app-section">
+          <div class="heading_text">
+          <h1 class="heading-1">Punchlist</h1>
+        </div>
+        <div class="tasks__form">
+          <form class="form" action="#">
+            <div class="form__input-group">
+            <label class="form__label" for="item">Add Task</label>
+            <input class="form__input" id="item" type="text" name="item" aria-label="item" required aria-required="true"/>
+          </div>
+            <button class="btn" type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="tasks">
+          <ul class="tasks__list" role="list"></ul>
+        </div>
+      </section>
+      </main>
+    </div>
+    <script type="module" src="main.js"></script>
+    <footer class="footer">
+    </footer>
+  </div>
+  </body>
+</html>

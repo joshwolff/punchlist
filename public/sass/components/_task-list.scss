@@ -1,0 +1,47 @@
+.tasks {
+  display: flex;
+  justify-content: flex-start;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    min-width: 50%;
+  }
+
+  &__list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .item-controls {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+
+    margin-left: 3rem;
+  }
+
+  .item-checkbox,
+  .item-delete,
+  .item-edit {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .item-checkbox {
+    margin-right: 1rem;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+
+  .item-text {
+    word-break: break-all;
+
+    &.complete {
+      text-decoration: line-through;
+    }
+  }
+}
